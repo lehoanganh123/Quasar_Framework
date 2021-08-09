@@ -17,7 +17,7 @@
     </q-header>
 
     <!-- bên trái -->
-    <q-drawer v-model="left" side="left" :width="283" bordered show-if-above>
+    <q-drawer v-model="leftDrawerOpen" side="left" :width="283" bordered show-if-above>
       <q-icon class="q-pa-md" name="fas fa-dove" size="lg" color="primary" />
 
       <q-list>
